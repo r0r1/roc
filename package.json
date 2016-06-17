@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rorikurniadi/roc#readme",
   "dependencies": {
+    "mysql": "^2.11.1",
     "sequelize": "^3.23.3"
   }
 }
