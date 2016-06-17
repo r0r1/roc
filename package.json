@@ -1,0 +1,28 @@
+{
+  "name": "roc",
+  "version": "1.0.0",
+  "description": "ROC is CMS API Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorikurniadi/roc.git"
+  },
+  "keywords": [
+    "CMS",
+    "API",
+    "Blog",
+    "API"
+  ],
+  "author": "Rori Kurniadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rorikurniadi/roc/issues"
+  },
+  "homepage": "https://github.com/rorikurniadi/roc#readme",
+  "dependencies": {
+    "sequelize": "^3.23.3"
+  }
+}
