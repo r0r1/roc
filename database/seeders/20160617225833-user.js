@@ -1,6 +1,6 @@
 'use strict';
 
-var bcrypt = require('bcrypt');
+let bcrypt = require('bcrypt');
 
 module.exports = {
   up: function (queryInterface, Sequelize) {
