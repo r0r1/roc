@@ -1,14 +1,11 @@
 {
   "name": "roc",
-  "version": "1.0.0",
-  "description": "ROC is CMS API Blog",
+  "version": "0.0.1",
+  "description": "ROC is REST API CMS Blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rorikurniadi/roc.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js"
   },
   "keywords": [
     "CMS",
@@ -16,14 +13,23 @@
     "Blog",
     "API"
   ],
-  "author": "Rori Kurniadi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rorikurniadi/roc/issues"
-  },
-  "homepage": "https://github.com/rorikurniadi/roc#readme",
+  "author": "Rori Kurn",
   "dependencies": {
+    "bcrypt": "^0.8.7",
+    "co": "^4.6.0",
+    "co-body": "^4.2.0",
+    "koa": "^1.2.0",
+    "koa-route": "^2.4.2",
     "mysql": "^2.11.1",
     "sequelize": "^3.23.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.0",
+    "supertest": "^1.1.0"
   }
 }
